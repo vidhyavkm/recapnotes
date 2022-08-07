@@ -1,0 +1,28 @@
+types of css :
+3 types=>internal, external,inline
+
+priority wise:
+
+inline>internal>external
+
+important:
+it overrides all the previous css styling rules for the specific property
+only that particular css will be applied where we have the important tag
+we arrely use important tags.
+
+display:none=> it is not only hidden and its takes no space.
+visibilty:hidden=> it is not visible but it doesnt leave its original space.
+
+measurements:
+%, px, cm, em, ex, in, mm, pc, pt, ch
+%=> defines a measurement as a percent relative to another value,(ele).
+cm,in,mm=> exactly our scale measurement.
+em=> A relative measurementfor the height of a font in em spaces.
+ex=> this defines a measurement relative to a height of fonts lowercase letter
+pc=> picas(12pts=1pcs)
+pt=> 1 inch = (1/72pt)
+px=> screen pixels.=> it will give clear image.
+
+inheritance:
+
+the property of parent directly passed to the child element.

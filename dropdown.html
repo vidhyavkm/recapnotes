@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .dropdown{
+        background-color:aqua;
+        padding:15px;
+        border-radius:10px;
+        width:55px;
+        border:2px solid pink;
+        position:relative;
+        
+    }
+    .list{
+       position:absolute;
+       left:70px;
+       padding:15px;
+       display:none;
+       background-color: blueviolet;
+       border-radius: 10px;
+       margin:10px;
+    }
+    .dropdown:hover .list{
+        display: block;
+    }
+    .name{
+        padding:5px;
+        border-bottom: 2px solid whitesmoke;
+    }
+    </style>
+</head>
+<body>
+    <div class="dropdown">Courses
+    <div class="list">
+    <div class="name">HTML</div>
+    <div class="name">CSS</div>
+    <div class="name">Javascript</div>
+    <div class="name">Bootstrap</div>
+    <div class="name">React</div>
+    <div class="name">Nodejs</div>
+    <div class="name">MongoDb</div>
+</div>
+</div>
+</body>
+</html>
